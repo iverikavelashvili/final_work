@@ -1,0 +1,60 @@
+/* 768-481*/
+@media(max-width: 744px) {
+/* header */
+.header {
+    padding-inline: 24px;
+}
+    /* home section 1 */
+    .home_section_1 {
+        padding-top: 32px;
+        height: 480px;
+    }
+    /* home section 2 */
+    .home_section_2 {
+       padding: 48px 0px 60px 24px;
+    }
+
+    .home_section_2_section {
+        margin-top: 52px;
+    }
+     /* catalog page style */
+
+     .catalog_section {
+        padding: 48px 24px;
+
+    }
+    .none_744px{
+        display: none;
+    }
+    /* contact page style */
+    .contact_section {
+        padding: 64px 24px;
+    }
+
+    .contact_section_1 {
+        display: flex;
+       flex-direction: column;
+       row-gap: 48px;
+        padding: 16px;
+        
+    }
+    .contact_section_2,
+    .map_section {
+        width: 100%;
+        row-gap: 24px;
+    }
+    .contact_h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+    .map_button_section {
+        column-gap: 42px;
+    }
+    
+
+    /* footer */
+    footer {
+        padding-inline: 24px;
+    }
+}
